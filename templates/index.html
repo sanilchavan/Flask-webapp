@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Diabetes Prediction</title>
+  <link rel="stylesheet" href="./static/style.css">
+
+</head>
+<body>
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Space+Mono:400,400i,700,700i" rel="stylesheet">
+  <!-- <meta name="viewport" content="wnameth=device-wnameth, initial-scale=0.41, maximum-scale=1" /> -->
+
+  <meta charset="UTF-8">
+  <title>Diabetes Prediction</title>
+</head>
+
+<body>
+  <label for='title' style="font-size: 25px;"> Heart Diseases Prediction</label>
+
+  <section id="wrapper">
+
+    <div id="one">
+      
+      <form action="/predict" method="POST" >
+        <!--<label for="fName">Full name</label>-->
+        <label for="email">Age</label>
+
+       <p> <input type="text" name="age" placeholder="Enter Your age eg:-45" autocomplete="off" /></p>
+        <label for="age">Sex</label>
+
+        <p><input type="text" name="sex" placeholder="Enter 0 for male 1 for female" autocomplete="off" /></p>
+        <label for="chest pain type">Chest pain type</label>
+
+        <p><input type="text" name="chest pain type" placeholder="Enter chest pain type eg:-0,1,2" autocomplete="off" /></p>
+        <label for="resting bp ">Resting bp</label>
+
+        <p><input type="text" name="resting blood pressure" placeholder="resting bp eg:-145" autocomplete="off" /></p>
+        <label for="resting bp">Serum cholestrol mg/dl</label>
+
+        
+        <p><input type="text" name="serum cholestoral in mg/dl" placeholder="cholestrol eg: 233" autocomplete="off" /></p>
+        <label for="cholestrol">fasting sugar</label>
+
+        <p><input type="text" name="fasting blood sugar" placeholder="Enter 1 if fasting sugar or 0" autocomplete="off" /></p>
+        <label for="sugar">Electrocardiographic</label>
+
+        <p><input type="text" name="resting electrocardiographic results" placeholder="cardiograph results eg 0 or 1" autocomplete="off" /></p>
+        <label for="cardio">HEART RATE</label>
+
+        <p><input type="text" name="maximum heart rate" placeholder="Enter max heart rate eg:150" autocomplete="off" /></p>
+        <label for="heart rate">exercise induced angina</label>
+        <p><input type="text" name="exercise induced angina" placeholder="angina 0 or 1" autocomplete="off" /></p>
+        <label for="angina">oldpeak</label>
+        <p><input type="text" name="oldpeak" placeholder="eg 2.5" autocomplete="off" /></p>
+        <label for="oldpeak">snamee of peak exercise</label>
+        <p><input type="text" name="slope of the peak exercise" placeholder="eg 0 or 1 or 2" autocomplete="off" /></p>
+        <label for="oldpeak">slope of peak exercise</label>
+        <p><input type="text" name="number of major vessels" placeholder="Eg 0 or 1 or 2" autocomplete="off" /></p>
+        <label for="email">thal</label>
+        <p><input type="text" name="thal" placeholder="eg 1 or 2 or 3" autocomplete="off" /></p>
+
+        
+
+
+        
+
+
+        <p class="submit"><input type="submit" value="Check" /></p>
+
+      </form>
+    </div>
+
+    
+  </section>
+
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

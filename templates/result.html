@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Diabetes Prediction</title>
+  <link rel="stylesheet" href="./static/style.css">
+<style>
+#wrapper{
+  width: 300px;
+  margin-top:10px;
+  height: 300px;
+  width: 100%;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  color: #fff;
+  font-size: 13px;
+  text-align:center;
+}
+img.animated-gif{
+  width: 600px;
+  height: 250px;
+}
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Space+Mono:400,400i,700,700i" rel="stylesheet">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=0.41, maximum-scale=1" /> -->
+
+  <meta charset="UTF-8">
+  <title>HEART DISEASES PREDICTION</title>
+</head>
+
+<body>
+  <label for='title' style="font-size: 20px;"> HEART DISEASES PREDICTION</label>
+
+<section id="wrapper">
+
+    
+        {% if prediction==1 %}
+       <p> <h1 >Prediction: Oops! You have Heart Diseases.</h1></p>
+       <img class="animated-gif" src="./static/bad-heart.webp">
+
+    {% elif prediction==0 %}
+      <p>  <h1>Prediction: Great! You DON'T have Heart Diseases.</h1></p>
+             <img class="animated-gif" src="./static/good-heart.webp">
+
+    {% endif %}
+     
+    
+
+  </section>  
+
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
